@@ -1,0 +1,21 @@
+{
+    "name": "tox/yii2-inputfile",
+    "description": "Some input file to practice to",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tox",
+            "email": "sample@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "inputfile\\": ""
+        }
+    }
+}
